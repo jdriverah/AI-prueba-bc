@@ -30,9 +30,7 @@ Julian David Rivera Hoyos
   - Ejecuciones: Ejecuciones del modelo
   - model_test: Modelo bert, con las librerias necesarias
 
-#### Conclusiones
-
+**Conclusiones**
 - Gurdandose los documentos indexados y embebidos con una ejecucion costo inicial de 0.06 dolares de 5000 documentos,4100 querys y usando la api de Open AI siendo el modelo mas eficiente se hace un analisis de costo basado pricing y de viabilidad del uso de la api teniedo el promedio de tokens por query de 12 y el costo por cada mil tokens para el modelo ada V2 es de 0.00010 haciendo las opereciones respectivas por cada dolar podemos realizar 833.333 querys =1/(0.00010/1000*12), y dada una base de 32000 colaboradores en una organizacion y asumiendo 10 consultas en promedio por dia por colaborador,y 20 dias laborales se tendria un costo para busqueda de documentos previamiente indexados de 7,68 dolares al mes, siendo entonces esta una opción viable y economica para la organización, teniendo como riesgo el envio de información a openAI donde se debe revisar los terminos y condiciones para realizar el embedding de los documentos teniendo como garantia la confidencialidad de la información
-
 
 ![image.png](attachment:image.png)
