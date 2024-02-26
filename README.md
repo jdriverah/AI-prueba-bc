@@ -5,7 +5,7 @@ Vicepresidencia de Analítica, Datos e Inteligencia Artificial**
 Julian David Rivera Hoyos
 
 **Pasos:**
-- Realizar embedding sobre el entrenamiento para validar la eficienciad del modelo encontrando los documentos relevantes y comprombar la medida de MMR
+- Realizar embedding sobre el entrenamiento para validar la eficienciad del modelo encontrando los documentos relevantes y comprobar la medida de MMR
 - Se realiza un embedding sobre el modelo de Open AI text-embedding-ada-002 para el test query y test document
 - Se crea el algoritmo para evaluar cosine similarity entre el query test embedding y el document test embedding y recuperar los 10 mejores resultados en cuanto a esta metrica.
   
